@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+	list-style: none;
+	text-decoration:none;
+	font-family: "Poppins", sans-serif;
+}
+
+.poppins-thin {
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 100;
+	font-style: italic;
+  }
+  
+  .poppins-extralight {
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+  }
+  
+  .poppins-extralight-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	font-style: italic;
+  }
+  
+  .poppins-light {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+  }
+  
+  .poppins-light-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+  }
+  
+  .poppins-regular {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .poppins-regular-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+  }
+  
+  .poppins-medium {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+  }
+  
+  .poppins-medium-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+  }
+  
+  .poppins-semibold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+  }
+  
+  .poppins-semibold-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-style: italic;
+  }
+  
+  .poppins-bold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  .poppins-bold-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+  }
+  
+  .poppins-extrabold {
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	font-style: normal;
+  }
+  
+  .poppins-extrabold-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	font-style: italic;
+  }
+  
+  .poppins-black {
+	font-family: "Poppins", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+  }
+  
+  .poppins-black-italic {
+	font-family: "Poppins", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+
+#main {
+	min-height:100vh;
+	width: 100%;
+	padding:20px;
+}
+
+#main .quiz-box{
+	margin:15px auto;
+	text-align:center;
+	padding:15px;
+	border-radius:10px;
+	background-color:#fff2ea;
+	min-height:100vh;
+}
+
+.title{
+	color:#ff5b06;
+	font-size:36px;
+}
+
+.subtitle{
+	color:#9e9d9a;
+	font-size:14px;
+}
+
+.quiz-box .quiz{
+	margin:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.quiz-form{
+	width:80%;
+	padding:15px;
+	margin:20px 10px;
+}
+
+.quiz-form .question{
+	width:90%;
+	background-color:#ffe5d8;
+	margin:10px auto;
+	padding:10px;
+	border-radius:5px;
+}
+
+.question .question-title{
+	color:#ff5b06;
+	font-size:18px;
+	text-wrap:wrap;
+	margin:10px 5px;
+}
+
+.question .options{
+	width:90%;
+	display:flex;
+	flex-direction:row;
+	margin:5px auto;
+}
+
+.option-box{
+	flex:0 1 50%;
+	padding:10px;
+	margin:10px 5px;
+	text-align:left;
+	border-radius:5px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	background-color:white;
+}
+
+.result{
+	margin: 15px auto;
+	height:100px;
+	width:300px;
+	border:none;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	background-color:white;
+	box-shadow: 0px 0px 15px 2px #ebdede;
+    border-radius: 10px;
+}
+
+.result .score{
+	padding: 5px;
+	width:100%;
+}
+
+.hide{
+	display:none;
+}
+
+.result .reload{
+	padding: 5px;
+	width:100%;
+}
+
+.btn{
+	padding:8px 20px;
+	background-color:#ffe5d8;
+	border:none;
+	border-radius:5px;
+	color:#ff5b06;
+	font-size:16px;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.btn:hover, .btn:focus{
+	opacity: 1;
+	border:1px solid #ff5b06;
+}
+
+
+.btn-primary{
+	padding:8px 20px;
+	background-color:#ff5b06;
+	border:none;
+	border-radius:5px;
+	color:white;
+	font-size:16px;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.m-top{
+	margin-top:20px;
+}
+.btn-primary:hover, .btn-primary:focus{
+	opacity: 1;
+}
+
+.correct{
+	background-color: #98f198 !important;
+}
+
+.wrong{
+	background-color: #ffa2a2 !important;
+}
